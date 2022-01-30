@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_navbar_links",
+  "info": {
+    "displayName": "navbarLink",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "isDropDown": {
+      "type": "boolean",
+      "default": false
+    },
+    "dropDown": {
+      "displayName": "dropDown",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.drop-down"
+    }
+  }
+}

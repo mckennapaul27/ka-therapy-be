@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_navbars",
+  "info": {
+    "displayName": "navbar",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "navLink": {
+      "displayName": "navLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.nav-link"
+    }
+  }
+}
