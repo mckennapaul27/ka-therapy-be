@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "disorders",
+  "collectionName": "blog_posts",
   "info": {
-    "singularName": "disorder",
-    "pluralName": "disorders",
-    "displayName": "disorder",
+    "singularName": "blog-post",
+    "pluralName": "blog-posts",
+    "displayName": "blogPost",
     "description": ""
   },
   "options": {
@@ -16,8 +16,8 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
+    "content": {
+      "type": "richtext",
       "required": true
     },
     "image": {
@@ -29,6 +29,11 @@
         "files",
         "videos"
       ]
+    },
+    "metaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.meta-data"
     }
   }
 }
